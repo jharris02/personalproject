@@ -1,0 +1,202 @@
+body{
+    font-family: 'Just Another Hand', cursive;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+li a:hover {
+    color: #ffffff; /*change the color here*/
+}
+
+/*Navigation bar for whole website*/
+    .nav{
+        text-align: center;
+        border: none;
+        display: block;
+        width: 100%;
+        position: fixed;
+        margin-top: 0px;
+        margin-bottom: auto;
+        background-color: #00ba8f;
+        color: #ffffff;
+        opacity: .5;
+        z-index: 2;
+        padding: 0;
+    }
+    .nav li{
+        display: inline;
+        margin: 0;
+        font-size: 50px;
+        padding: 10px;
+    }
+    .logo{
+        font-family: 'Monoton', cursive;
+        font-size: 36px;
+        display: block;
+        padding: 2px;
+        background-color: #ff4d9a;
+        color: #ffffff;
+    }
+    
+    
+/*Footer for whole website*/
+    .footer{
+        text-align: center;
+        background-color: #ffffff;
+        width: 100%;
+        display: block;
+    }
+    .footer li{
+        display: inline;
+        font-size: 36px;
+        color: #000000;
+        padding: 20px;
+    }
+    .footer ul{
+        padding-top: 25px;
+        margin-bottom: 0;
+    }
+    .footer img{
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+
+/*Main image background*/
+    img{
+        margin-top: 0;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+    .backgroundimage{
+        margin-top: 0;
+    }
+/*Main page call outs*/    
+    .button1{
+        color: #eb2700;
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        margin: auto;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 5%;
+        background: #ffffff;
+    }
+    .button2{
+        color: #ff4d9a;
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        margin: auto;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 30%;
+        background: #ffffff;
+    }
+    .button3{
+        color: #00ba8f;
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        margin: auto;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 55%;
+        background: #ffffff;
+    
+    }
+    .button4{
+        color: #7d3c6b;
+        display: inline-block;
+        text-align: center;
+        width: 15%;
+        margin: auto;
+        position: absolute;
+        margin-top: 190px;
+        margin-left: 80%;
+        background: #ffffff;
+}
+    .bigbutton{
+        display: inline-block;
+        position: absolute;
+        margin: auto;
+        width: 50%;
+        height: 50%;
+        margin-top: 500px;
+        background-color: #7d3c6b;
+        z-index: 2;
+        margin-left: 25%;
+        text-align: center;
+        color: #ffffff;
+        font-size: 22px;
+    }
+    .bigbutton h1{
+        font-family: 'Monoton', cursive;
+        font-size: 50px;
+        color: #ffffff;
+    }
+/*Search Bar here - it doesn't go to anything for now!*/
+.search{
+    display: block;
+    background-color: #00ba8f;
+    padding-top: 95px;
+    text-align: right;
+    margin-bottom: 0px;
+    
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+input[type=text] {
+    width: 300px;
+    transition: width 0.4s ease-in-out;
+    font-size: 30px;
+    font-family:'Just Another Hand', cursive;
+
+}
+/*Contact Us Page - information doesn't go anywhere yet!*/
+.signup{
+    display: inline-block;
+    color: #ffffff ;
+    margin: auto;
+    text-align: center;
+    font-size: 36px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #00ba8f;
+}
+#sheet{
+    text-align: center;
+    background-color: #fa9a00;
+    padding-bottom: 20px;
+}
+/*Portfolio page that has placeholder images*/
+.portfolio li{
+    display: inline;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.portfolio ul{
+    text-align: center;
+    margin-top: 50px;
+}
+.portfolio img{
+    width: 25%;
+    display: inline;
+}
+.portfolio #topport{
+    padding-top: 100px;
+}
+.portfolio #bottomport{
+    padding-bottom: 100px;
+}
